@@ -1,0 +1,8 @@
+{
+    "jq": {
+        "image": "dlacewell/jq:latest",
+        "volumes": {
+            "data": "/data"
+        }
+    },
+}
