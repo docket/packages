@@ -5,4 +5,32 @@
             "data": "/data"
         }
     },
+    "nim": {
+        "image": "nimlang/nim",
+        "entrypoint": "nim",
+        "mountPwd": true
+    },
+    "nimble": {
+        "image": "nimlang/nim",
+        "entrypoint": "nimble",
+        "volumes": {
+            "nimble": "/root/.nimble"
+        }
+    },
+    "weechat": {
+        "image": "dlacewell/weechat",
+        "volumes": {
+            "weechat": "/volume"
+        }
+    },
+    "mono": {
+        "image": "mono",
+        "entrypoint": "mono",
+        "mountPwd": true
+    },
+    "mcs": {
+        "image": "mono",
+        "entrypoint": "mcs",
+        "mountPwd": true
+    }
 }
